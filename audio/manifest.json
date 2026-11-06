@@ -1,0 +1,307 @@
+{
+  "status": "connected",
+  "format": "mp3",
+  "musicLoop": true,
+  "files": [
+    {
+      "path": "sfx/ui/click.wav",
+      "event": "Обычное нажатие кнопки",
+      "loop": false
+    },
+    {
+      "path": "sfx/ui/select.mp3",
+      "event": "Выбор героя, облика, главы, уровня или режима",
+      "loop": false
+    },
+    {
+      "path": "sfx/ui/open.mp3",
+      "event": "Открытие профиля, справки или окна",
+      "loop": false
+    },
+    {
+      "path": "sfx/ui/back.mp3",
+      "event": "Закрытие окна и возврат",
+      "loop": false
+    },
+    {
+      "path": "sfx/ui/start.mp3",
+      "event": "Запуск уровня",
+      "loop": false
+    },
+    {
+      "path": "sfx/ui/pause.mp3",
+      "event": "Пауза",
+      "loop": false
+    },
+    {
+      "path": "sfx/ui/resume.mp3",
+      "event": "Продолжение после паузы",
+      "loop": false
+    },
+    {
+      "path": "sfx/ui/confirm.mp3",
+      "event": "Подтверждение действия, принятие соглашения",
+      "loop": false
+    },
+    {
+      "path": "sfx/ui/unavailable.mp3",
+      "event": "Недоступное действие, если интерфейс допускает нажатие",
+      "loop": false
+    },
+    {
+      "path": "sfx/gestures/draw-start.mp3",
+      "event": "Начало рисования",
+      "loop": false
+    },
+    {
+      "path": "sfx/gestures/draw-loop.mp3",
+      "event": "Тихий зацикленный шорох во время рисования, необязательно",
+      "loop": true
+    },
+    {
+      "path": "sfx/gestures/cast.mp3",
+      "event": "Успешно нарисован знак и есть подходящая цель",
+      "loop": false
+    },
+    {
+      "path": "sfx/gestures/miss.mp3",
+      "event": "Знак не распознан или нет подходящей цели",
+      "loop": false
+    },
+    {
+      "path": "sfx/gestures/lightning.mp3",
+      "event": "Успешный редкий знак молнии ϟ",
+      "loop": false
+    },
+    {
+      "path": "sfx/gestures/ampersand.mp3",
+      "event": "Успешный редкий знак &",
+      "loop": false
+    },
+    {
+      "path": "sfx/gestures/combo.mp3",
+      "event": "Повышение множителя серии, не каждый удар",
+      "loop": false
+    },
+    {
+      "path": "sfx/combat/wave-start.mp3",
+      "event": "Начало новой волны",
+      "loop": false
+    },
+    {
+      "path": "sfx/combat/enemy-spawn.mp3",
+      "event": "Появление обычного врага, короткий общий звук",
+      "loop": false
+    },
+    {
+      "path": "sfx/combat/sign-hit.mp3",
+      "event": "Снят знак с врага, но он ещё жив",
+      "loop": false
+    },
+    {
+      "path": "sfx/combat/enemy-defeat.mp3",
+      "event": "Враг уничтожен",
+      "loop": false
+    },
+    {
+      "path": "sfx/combat/cleanse.mp3",
+      "event": "Возвращение света после уничтожения, мягкий акцент",
+      "loop": false
+    },
+    {
+      "path": "sfx/combat/hero-damage.mp3",
+      "event": "Потеря сердца",
+      "loop": false
+    },
+    {
+      "path": "sfx/combat/low-health.mp3",
+      "event": "Переход к последнему сердцу",
+      "loop": false
+    },
+    {
+      "path": "sfx/combat/projectile.mp3",
+      "event": "Выстрел Стрелка или босса",
+      "loop": false
+    },
+    {
+      "path": "sfx/combat/split.mp3",
+      "event": "Делитель распадается на двух врагов",
+      "loop": false
+    },
+    {
+      "path": "sfx/combat/rewrite.mp3",
+      "event": "Переписчик меняет знак",
+      "loop": false
+    },
+    {
+      "path": "sfx/combat/boss-enter.mp3",
+      "event": "Выход босса",
+      "loop": false
+    },
+    {
+      "path": "sfx/combat/boss-phase.mp3",
+      "event": "Переход босса в следующую фазу",
+      "loop": false
+    },
+    {
+      "path": "sfx/combat/boss-defeat.mp3",
+      "event": "Победа над боссом",
+      "loop": false
+    },
+    {
+      "path": "sfx/abilities/shield.mp3",
+      "event": "Активация щита",
+      "loop": false
+    },
+    {
+      "path": "sfx/abilities/shield-block.mp3",
+      "event": "Щит поглощает удар",
+      "loop": false
+    },
+    {
+      "path": "sfx/abilities/slow.mp3",
+      "event": "Активация песочных часов",
+      "loop": false
+    },
+    {
+      "path": "sfx/abilities/slow-end.mp3",
+      "event": "Окончание замедления",
+      "loop": false
+    },
+    {
+      "path": "sfx/abilities/flash.mp3",
+      "event": "Активация вспышки",
+      "loop": false
+    },
+    {
+      "path": "sfx/abilities/ready.mp3",
+      "event": "Способность восстановилась",
+      "loop": false
+    },
+    {
+      "path": "sfx/abilities/revive.mp3",
+      "event": "Возрождение после рекламы",
+      "loop": false
+    },
+    {
+      "path": "sfx/results/victory.mp3",
+      "event": "Успешное завершение уровня",
+      "loop": false
+    },
+    {
+      "path": "sfx/results/defeat.mp3",
+      "event": "Окончательное поражение",
+      "loop": false
+    },
+    {
+      "path": "sfx/results/chapter-complete.mp3",
+      "event": "Завершение главы, вместо обычной победы",
+      "loop": false
+    },
+    {
+      "path": "sfx/results/campaign-complete.mp3",
+      "event": "Финал всей истории, вместо обычной победы",
+      "loop": false
+    },
+    {
+      "path": "sfx/results/achievement.mp3",
+      "event": "Получено достижение",
+      "loop": false
+    },
+    {
+      "path": "sfx/results/unlock.mp3",
+      "event": "Открыта способность или новый режим",
+      "loop": false
+    },
+    {
+      "path": "sfx/results/record.mp3",
+      "event": "Новый рекорд",
+      "loop": false
+    },
+    {
+      "path": "sfx/results/reward.mp3",
+      "event": "Бонус подтверждён рекламной площадкой",
+      "loop": false
+    },
+    {
+      "path": "music/01-forest/forest1.mp3",
+      "event": "01-forest",
+      "loop": true
+    },
+    {
+      "path": "music/01-forest/forest2.mp3",
+      "event": "01-forest",
+      "loop": true
+    },
+    {
+      "path": "music/01-forest/forest3.mp3",
+      "event": "01-forest",
+      "loop": true
+    },
+    {
+      "path": "music/01-forest/forest4.mp3",
+      "event": "01-forest",
+      "loop": true
+    },
+    {
+      "path": "music/02-library/library1.mp3",
+      "event": "02-library",
+      "loop": true
+    },
+    {
+      "path": "music/02-library/library2.mp3",
+      "event": "02-library",
+      "loop": true
+    },
+    {
+      "path": "music/02-library/library3.mp3",
+      "event": "02-library",
+      "loop": true
+    },
+    {
+      "path": "music/02-library/library4.mp3",
+      "event": "02-library",
+      "loop": true
+    },
+    {
+      "path": "music/03-islands/island1.mp3",
+      "event": "03-islands",
+      "loop": true
+    },
+    {
+      "path": "music/03-islands/island2.mp3",
+      "event": "03-islands",
+      "loop": true
+    },
+    {
+      "path": "music/04-observatory/observatory1.mp3",
+      "event": "04-observatory",
+      "loop": true
+    },
+    {
+      "path": "music/04-observatory/observatory2.mp3",
+      "event": "04-observatory",
+      "loop": true
+    },
+    {
+      "path": "music/05-storm/storm1.mp3",
+      "event": "05-storm",
+      "loop": true
+    },
+    {
+      "path": "music/05-storm/storm2.mp3",
+      "event": "05-storm",
+      "loop": true
+    },
+    {
+      "path": "music/05-storm/storm3.mp3",
+      "event": "05-storm",
+      "loop": true
+    },
+    {
+      "path": "music/menu/menu.mp3",
+      "event": "menu",
+      "loop": true
+    }
+  ]
+}
